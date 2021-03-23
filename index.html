@@ -54,7 +54,7 @@
             <ol start="1">
                 <li>Không spam, chửi nhau trên <b>Bất kì kênh nào của server</b>. Điều luật áp dụng cho tất cả các kênh.</li>
                 <li>Không buôn bán, không post link web bán buôn , link server khác nhằm quảng cáo.</li>
-                <li>Không sử dụng lệnh tag <span class="blue">@everyone</span>, <span class="blue">@here</span> và @Members để tránh ảnh hưởng đến thành viên khác. Nếu bạn tìm thấy một lỗ hỏng , hãy báo cáo ngay cho 1 Admin/Quản Trò/Side Content Team . Cố ý sử dụng lỗ hỏng và bạn sẽ có một phiếu ra đảo miễn phí.</li>
+                <li>Không sử dụng lệnh tag <span class="blue">@everyone</span>, <span class="blue">@here</span> và <span class="darkred">@Members</span> để tránh ảnh hưởng đến thành viên khác. Nếu bạn tìm thấy một lỗ hỏng , hãy báo cáo ngay cho 1 Admin/Quản Trò/Side Content Team . Cố ý sử dụng lỗ hỏng và bạn sẽ có một phiếu ra đảo miễn phí.</li>
                 <li>Không phân biệt vùng miền - <span class="red">@Quarantined</span> luôn chờ đón bạn mỗi khi bạn xúc phạm 1 ai đó vì vùng miền của họ.</li>
                 <li>Hạn chế toxic nhất có thể, <span class="red">@Quarantined</span> sẽ chào đón bạn với một màu sắc rực rỡ.</li>
                 <li>Không copy link game server. Phát hiện lần đầu ăn warn. Đến lần 2 thì bye bye.</li>
@@ -68,7 +68,7 @@
             </ol>
             <div class="custom-control custom-checkbox mb-3">
               <input type="checkbox" class="custom-control-input" id="customCheck1" name="checkbox1">
-              <label class="custom-control-label" for="customCheck1">Tôi đồng ý với luật của server và sẽ làm theo luật.</label>
+              <label class="custom-control-label" for="customCheck1" onclick="toggleActive.call()">Tôi đồng ý với luật của server và sẽ làm theo luật.</label>
             </div>
         </div>
     </div>
@@ -97,28 +97,10 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title">Thông tin</h4>
-          </div>
-          <div class="modal-body">
-            <img style='vertical-align:middle; float: left;' src="img/marshyava.png">
-            <div style='vertical-align:middle; display:inline;'>
-              <p><span class="bold">Owner</span> Marshy</p>
-              <p><span class="bold"><i class="fas fa-user"></i> Tên:</span> Marshy</p>
-              <p><span class="bold"><i class="fab fa-discord"></i> Discord:</span> RV | 빨간 맛#7117</p>
-              <p><span class="bold">Chức vụ:</span> Owner, Werewold Dev, Admin, Quản trò,...</p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div></div></div>
+    <button type="button" class="btn btn-primary disabled" id="confirmbtn">Xác nhận</button>
     <footer>
         <p>Website vẫn đang trong quá trình thử nghiệm<br>
-          Phiên bản: Beta 1.2<br>
+          Phiên bản: Beta 1.3  | <a href="changelog.html">Changlog</a> | <a href="https://discord.gg/6SCdMNN">Link Server</a><br>
           Powered by GitHub <i class="fab fa-github"></i></p>
     </footer>
 </body>

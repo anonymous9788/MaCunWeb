@@ -21,6 +21,7 @@ body {
   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/* START SPECIAL CLASSES */
 .red{
   color: red;
   font-weight: bold;
@@ -33,10 +34,16 @@ body {
   color: #ffee00;
   font-weight: bold;
 }
-.nav-item{
-  margin-right: 10px;
-  color:white;
+.bold{
+  font-weight: bold;
+  margin-left: 10px;
 }
+.darkred{
+  color: #a85155;
+  font-weight: bold;
+}
+/* END SPECIAL CLASSES */
+
 footer{
   text-align: center;
   padding: 3px;
@@ -58,7 +65,8 @@ footer > p{
   max-width: 100%;
   height: auto;
 }
-.bold{
-  font-weight: bold;
-  margin-left: 10px;
+
+.btn{
+  margin-left: 15px;
+  margin-bottom: 10px;
 }

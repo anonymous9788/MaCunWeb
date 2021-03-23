@@ -176,3 +176,14 @@ body {background-color: #f9f9f9; margin:0; padding:0;}
 	color: #6fb9a475;
 }
 
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  margin-top: 50px;
+  color: white;
+}
+
+footer > p{
+  margin-bottom: 0px;
+}
