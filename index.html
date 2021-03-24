@@ -1,108 +1,365 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ma Cún Discord Server</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/18e40d244e.js" crossorigin="anonymous"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Ma Cún Discord Server</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg" />
-    <script src="script.js" defer></script>
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/18e40d244e.js" crossorigin="anonymous"></script>
-    <script>
-      var navList = document.getElementById("nav-lists");
-      function Show() {
-          navList.classList.add("_Menus-show");
-      }
+	</head>
+	<body class="is-preload">
 
-      function Hide() {
-          navList.classList.remove("_Menus-show");
-      }
-    </script>
-</head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<body style="background-color:rgb(246, 207, 208); color: #412d00; width: 100%;" id="bootstrap-overrides">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="img/icon.jpg" style="width:60px; height: 60px;" alt="Server Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link btn btn-outline-primary" href="#">Trang chủ<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-outline-primary" href="members.html">Về Server</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-outline-primary" href="#">Hỗ trợ</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <div class="body" id="note">
-        <p><b>Chào mừng tới server Discord Ma Cún!</b><br>
-        Trước khi tham gia vào server bạn cần phải đọc nội quy và tìm hiểu một số điều trước đã :></p>
-    </div>
-    <div class="row-fluid">
-        <div class="col-md-12"><p><b>Luật khi tham gia server:</b></p></div>
-        <div>
-            <ol start="1">
-                <li>Không spam, chửi nhau trên <b>Bất kì kênh nào của server</b>. Điều luật áp dụng cho tất cả các kênh.</li>
-                <li>Không buôn bán, không post link web bán buôn , link server khác nhằm quảng cáo.</li>
-                <li>Không sử dụng lệnh tag <span class="blue">@everyone</span>, <span class="blue">@here</span> và <span class="darkred">@Members</span> để tránh ảnh hưởng đến thành viên khác. Nếu bạn tìm thấy một lỗ hỏng , hãy báo cáo ngay cho 1 Admin/Quản Trò/Side Content Team . Cố ý sử dụng lỗ hỏng và bạn sẽ có một phiếu ra đảo miễn phí.</li>
-                <li>Không phân biệt vùng miền - <span class="red">@Quarantined</span> luôn chờ đón bạn mỗi khi bạn xúc phạm 1 ai đó vì vùng miền của họ.</li>
-                <li>Hạn chế toxic nhất có thể, <span class="red">@Quarantined</span> sẽ chào đón bạn với một màu sắc rực rỡ.</li>
-                <li>Không copy link game server. Phát hiện lần đầu ăn warn. Đến lần 2 thì bye bye.</li>
-                <li>Bị warn, cảnh cáo nhiều lần (> 5 lần) sẽ ăn búa ngay lập tức. Không có cảnh cáo nặng gì cả.</li>
-                <li>Dùng lệnh ở đúng kênh.</li>
-                <li>Mỗi người một tài khoản, không ai được sử dụng clone với bất kỳ mục đích gì.</li>
-                <li>Khi đã vi phạm <span class="blue"><a href="https://discord.com/channels/680270193167171678/688406053158649864" target="blank">#『🔒』luật-chơi-ma-sói</a></span>, hãy đối mặt và chịu trách nhiệm với nó, đừng trốn chạy. Trốn chạy sẽ khiến bạn bị phạt nặng hơn.</li>
-                <li>Chẳng có gì tự hào khi bạn là một kẻ gian lận. Nên tốt nhất là đừng gian lận. Nếu bạn đã gian lận thì hãy khai ra( DM 1 admin/quản trò/helper nếu cảm thấy không thoải mái khi khai báo lỗi lầm của mình).</li>
-                <li>Vi phạm luật mà thái độ như beep xin mời ra chuồng gà chơi.</li>
-                <li>Cấm ăn cắp ý tưởng dưới mọi hình thức</li>
-            </ol>
-            <div class="custom-control custom-checkbox mb-3">
-              <input type="checkbox" class="custom-control-input" id="customCheck1" name="checkbox1">
-              <label class="custom-control-label" for="customCheck1" onclick="toggleActive.call()">Tôi đồng ý với luật của server và sẽ làm theo luật.</label>
-            </div>
-        </div>
-    </div>
-    <div class="row-fluid">
-        <div class="col-md-12"><p><b>Luật khi tham gia trò chơi Ma Sói:</b></p></div>
-        <div>
-            <ol start="1">
-                <li>Không DM (IB - InBox) nhau khi đang trong game. Chúng tôi không muốn game bị mất cân bằng vì các bạn làm vậy.</li>
-                <li>Không lạm dụng lệnh "-" hoặc "." sai mục đích.</li>
-                <li>Không chụp hình, không copy lại bất cứ thứ gì từ Channel - Vai Trò Riêng.</li>
-                <li>Không gây war, spam khi đang chơi game.</li>
-                <li>Nghiêm cấm out Game Server trong quá trình chơi game. Không offline khi đã tham gia, nếu Quản trò ping nhiều lần vẫn không online sẽ bị cảnh cáo (warn).</li>
-                <li>Cấm chửi tục ở Game Server dưới mọi hình thức</li>
-                <li>Sử dụng đúng lệnh trong Main Server cũng như Game Server mà đã được quy định.</li>
-                <li>Cấm được xoá tin nhắn hay chỉnh sửa khi chơi game.</li>
-                <li>Vui lòng tránh việc hối thúc quản trò bắt đầu game; đặc biệt game càng nhiều người càng nên tránh. Tuy nhiên, nếu 1 quản trò offline giữa chừng, có thể ping các quản trò khác đang online.</li>
-                <li>Bạn có thể đăng ảnh thoải mái về game - miễn là sau khi game đó kết thúc. (Lưu ý: Chỉ cho phép hình ảnh ở kênh sảnh đợi, buổi sáng thảo luận, khu vực xem vote và người chết).</li>
-                <li>Ma Sói - Ma Cún cho phép người chơi react ở Buổi Sáng Thảo Luận tạo thêm tính vui vẻ cho Người Chơi, vì thế nghiêm cấm các trường hợp khi đêm react số hay bất cứ thứ gì mang tính ám chỉ người chơi khác.</li>
-                <li>Chơi game một cách zui zẻ nên chúng ta cố gắng đừng cố tình camp một người nào đó.</li>
-                <li>Từ bây giờ những hành vi vi phạm luật 1-4-5-10 trong <span class="blue"><a href="https://discord.com/channels/680270193167171678/688406053158649864" target="blank">#『🔒』luật-chơi-ma-sói</a></span> có thể sẽ bị role <span class="yellow">@Game Banned</span> tùy vào mức độ vi phạm của các bạn.</li>
-                <li>Nếu ping Quản Trò nào đó mà họ Không Quản Lí Game đó thì hình phạt sẽ được áp dụng (Trừ khi không biết rằng Quản Trò Quản Lí Game đó đã chuyển nhượng Quản Lí Game cho 1 Quản Trò khác).</li>
-            </ol>
-            <div class="custom-control custom-checkbox mb-3">
-              <input type="checkbox" class="custom-control-input" id="customCheck2" name="checkbox2">
-              <label class="custom-control-label" for="customCheck2">Tôi đồng ý với luật khi tham gia Ma Sói và sẽ làm theo luật.</label>
-            </div>
-        </div>
-    </div>
-    <button type="button" class="btn btn-primary disabled" id="confirmbtn">Xác nhận</button>
-    <footer>
-        <p>Website vẫn đang trong quá trình thử nghiệm<br>
-          Phiên bản: Beta 1.3  | <a href="changelog.html">Changlog</a> | <a href="https://discord.gg/6SCdMNN">Link Server</a><br>
-          Powered by GitHub <i class="fab fa-github"></i></p>
-    </footer>
-</body>
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<img src="img/icon.jpg"></img>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Ma Cún Discord Server</h1>
+								<p>Bạn đang tìm kiếm Simulation Game hay Bạn đang muốn tìm kiếm Ma Sói Discord?<br> Rất vui cho bạn vì mình sẽ giới thiệu bạn đến với Ma Sói Discord - Ma Cún!</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Trang chủ</a></li>
+								<li><a href="#work">Về Server</a></li>
+								<li><a href="#about">Hỗ trợ</a></li>
+								<!-- <li><a href="#contact">Hỗ trợ</a></li> -->
+								<!-- <li><a href="#elements">Elements</a></li> -->
+							</ul>
+						</nav>
+					</header>
 
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="img/pic01.jpg" alt="" /></span>
+								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work</h2>
+								<span class="image main"><img src="img/pic02.jpg" alt="" /></span>
+								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="img/pic03.jpg" alt="" /></span>
+								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">Phiên bản: Beta 1.3.1  | <a href="changelog.html">Changlog</a> | <a href="https://discord.gg/6SCdMNN">Link Server</a><br>
+							Powered by GitHub <i class="fab fa-github"></i></p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
