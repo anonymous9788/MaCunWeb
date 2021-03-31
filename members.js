@@ -26,11 +26,12 @@ testFunc([
     },
     {
         "sayhi":`<s>Đã xóa theo yêu cầu của thành viên</s>`,
-        "name": "Admin Kanna",
+        "name": `<span style="color: #d6d6d6">Admin Kanna</span>`,
+		"bg":"img/kannawall.jpg",
         "detailName":"Kanna",
         "ava": "img/kannaava.png",
-        "discord": "Ethics🐰🐟#2049",
-        "job":`<s>Đã xóa theo yêu cầu của thành viên</s>`
+        "discord": `<span style="color: #d6d6d6">Ethics🐰🐟#2049/span>`,
+        "job":`<span style="color: #d6d6d6"><s>Đã xóa theo yêu cầu của thành viên</s></span>`
     },
     {
         "sayhi":"Hi bros!",
