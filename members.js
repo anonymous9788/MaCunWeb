@@ -1,11 +1,12 @@
 testFunc([
     {
         "sayhi":"Xin chào nha :3",
+        "bg":"img/marswall.png",
         "name": "Owner Marshy",
         "detailName":"Marshy",
         "ava": "img/marshyava.png",
         "discord": "RV | 빨간 맛#7117",
-        "job":"Owner, Werewolf Dev, Admin, Quản trò, Staff"
+        "job": `Owner, Werewolf Dev, Admin, Quản trò, Staff`
     },
     {
         "sayhi":"Chào mọi người",
@@ -23,7 +24,14 @@ testFunc([
         "discord": "Khang#9594",
         "job":"Werewolf Dev, Admin"
     },
-    // Edit below this line ------------------------------
+    {
+        "sayhi":`<s>Đã xóa theo yêu cầu của thành viên</s>`,
+        "name": "Admin Kanna",
+        "detailName":"Kanna",
+        "ava": "img/kannaava.png",
+        "discord": "Ethics🐰🐟#2049",
+        "job":`<s>Đã xóa theo yêu cầu của thành viên</s>`
+    },
     {
         "sayhi":"Hi bros!",
         "name": "Werewolf Dev Hải",
@@ -91,9 +99,18 @@ testFunc([
     {
         "sayhi": "Ohayo Mina-san",
         "name": "DinoxTheClown",
-        "detailName":"Bí tồ/Bbilse",
+        "detailName":"Dinox",
         "ava": "img/dinoxava.png",
         "discord": "Dinox#7546",
         "job": "Side Content Team, Staff"
+    },
+    {
+        "sayhi": "Chào tất cả mọi người nhaaaaaaa :>",
+        "bg":"img/caowall.jpg",
+        "name": `Web Dev Cáo`,
+        "detailName":`Cáo`,
+        "ava": "img/caoava.png",
+        "discord": `Cáo#3068`,
+        "job": `Side Content Team, Staff, Web Developer`
     },
 ])

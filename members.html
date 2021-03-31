@@ -39,47 +39,16 @@
         var out = "";
         var i;
         for(i = 0; i<arr.length; i++) {
-          out += '<div class="container" style="margin-top: 30px;"> <div class="row"> <div class="col-11 mx-auto profile"> <div class="py-3 px-2 px-lg-4 py-lg-5"> <div class="row"> <div class="avatarBox col-12 col-lg-5"> <img src="'+arr[i].ava+'" class="img-fluid"> </div> <div class="infoBox col-12 col-lg-6 mt-2 mt-lg-0"> <p class="sayHi">'+arr[i].sayhi+'</p> <div class="name"> <p><span></span>'+arr[i].name+'</p> <p class="s">Verified <span class="ion-ios-checkmark-outline"></span> </p> </div> <hr> <div class="detailInfo"> <div class="row my-2"> <div class="col-lg-4 col-12 boldd">Tên</div> <div class="col-lg-8 col-12 b">'+arr[i].detailName+'</div> </div> <div class="row my-2"> <div class="col-lg-4 col-12 boldd"><i class="fab fa-discord"></i> Discord</div> <div class="col-lg-8 col-12 b">'+arr[i].discord+'</div> </div> <div class="row my-2"> <div class="col-lg-4 col-12 boldd">Chức vụ</div> <div class="col-lg-8 col-12 b">'+arr[i].job+'</div></div></div></div></div></div></div></div></div></div><br>'
+          out += '<div class="container" style="margin-top: 30px;"> <div class="row"> <div class="col-11 mx-auto profile" style="background-image: url(\''+arr[i].bg+'\'); background-repeat: inherit;"> <div class="py-3 px-2 px-lg-4 py-lg-5"> <div class="row"> <div class="avatarBox col-12 col-lg-5"> <img src="'+arr[i].ava+'" class="img-fluid"> </div> <div class="infoBox col-12 col-lg-6 mt-2 mt-lg-0"> <p class="sayHi">'+arr[i].sayhi+'</p> <div class="name"> <p><span></span>'+arr[i].name+'</p> <p class="s">Verified <span class="ion-ios-checkmark-outline"></span> </p> </div> <hr> <div class="detailInfo"> <div class="row my-2"> <div class="col-lg-4 col-12 boldd">Tên</div> <div class="col-lg-8 col-12 b">'+arr[i].detailName+'</div> </div> <div class="row my-2"> <div class="col-lg-4 col-12 boldd"><i class="fab fa-discord"></i> Discord</div> <div class="col-lg-8 col-12 b">'+arr[i].discord+'</div> </div> <div class="row my-2"> <div class="col-lg-4 col-12 boldd">Chức vụ</div> <div class="col-lg-8 col-12 b">'+arr[i].job+'</div></div></div></div></div></div></div></div></div></div><br>'
         }
         document.getElementById("id01").innerHTML = out;
       }
       </script>  
     <script src="members.js"></script>  
-	<div class="container" style="margin-top: 50px;"> 
-		<div class="row">
-			<div class="col-11 mx-auto profile" style="background-image: url('img/caowall.jpg');">
-				<div class="py-3 px-2 px-lg-4 py-lg-5">
-					<div class="row">
-						<div class="avatarBox col-12 col-lg-5">
-							<img src="img/caoava.png" class="img-fluid">
-						</div>
-						<div class="infoBox col-12 col-lg-6 mt-2 mt-lg-0">
-							<p class="sayHi">Chào tất cả mọi người nha :></p>
-							<div class="name">
-								<p><span></span>Web Dev Cáo</p>
-								<p class="s">Verified
-									<span class="ion-ios-checkmark-outline"></span>
-								</p>
-							</div>
-							<hr>
-							<div class="detailInfo">
-								<div class="row my-2">
-									<div class="col-lg-4 col-12 boldd">Tên</div>
-									<div class="col-lg-8 col-12 b">Cáo</div>
-								</div>
-								<div class="row my-2">
-									<div class="col-lg-4 col-12 boldd"><i class="fab fa-discord"></i> Discord</div>
-									<div class="col-lg-8 col-12 b">Cáo#3068</div>
-								</div>
-								<div class="row my-2">
-									<div class="col-lg-4 col-12 boldd">Chức vụ</div>
-									<div class="col-lg-8 col-12 b">Side Content Team, Staff, Web Developer</div>
-								</div>
-			</div></div></div></div></div></div></div></div>
 
 </body>
 <footer>
-	<p>Website vẫn đang trong quá trình thử nghiệm<br>
+	<p>Website vẫn đang trong quá trình thử nghiệm | Avatar của các thành viên có thể không cập nhật kịp với thực tế<br>
 	  Phiên bản: Beta 1.3.2  | <a href="changelog.html">Changelog</a> | <a href="https://discord.gg/6SCdMNN">Link Server</a><br>
 	  Powered by GitHub <i class="fab fa-github"></i></p>
 </footer>
