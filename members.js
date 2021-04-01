@@ -25,7 +25,7 @@ testFunc([
         "job":"Werewolf Dev, Admin"
     },
     {
-        "sayhi":`<s>Đã xóa theo yêu cầu của thành viên</s>`,
+        "sayhi":`Hola amogus`,
         "name": `<span style="color: #d6d6d6">Admin Kanna</span>`,
 		"bg":"img/kannawall.jpg",
         "detailName":"Kanna",
@@ -43,11 +43,12 @@ testFunc([
     },
     {
         "sayhi":"Chào mọi người nha!",
-        "name": "Admin KhongNoiChuyen",
-        "detailName":"Tồm bếu/Đạt",
+        "name": `<span style="color: #Ffff99">Admin KhongNoiChuyen</span>`,
+		"bg":"img/tomwall.jpg",
+        "detailName":`<span style="color: #Ffff99">Tồm bếu/Đạt</span>`,
         "ava": "img/tomava.png",
-        "discord": "KhongNoiChuyen#0217",
-        "job":"Admin, Quản trò, Staff"
+        "discord": `<span style="color: #Ffff99">KhongNoiChuyen#0217</span>`,
+        "job":`<span style="color: #Ffff99">Admin, Quản trò, Staff</span>`
     },
     {
         "sayhi":"Chào mọi người",
@@ -85,7 +86,7 @@ testFunc([
         "sayhi": "2k8 sin trào các bạn",
         "name": "Staff Taki",
         "detailName":"Taki",
-        "ava": "img/takiava.gif",
+        "ava": "img/takiava.png",
         "discord": "Taki#2202",
         "job": "Side Content Team, Staff"
     },
