@@ -28,9 +28,9 @@ testFunc([
         "sayhi":`Hola amogus`,
         "name": `<span style="color: #d6d6d6">Admin Kanna</span>`,
 		"bg":"img/kannawall.jpg",
-        "detailName":"Kanna",
+        "detailName":`<span style="color: #d6d6d6">Kanna</span>`,
         "ava": "img/kannaava.png",
-        "discord": `<span style="color: #d6d6d6">Ethics🐰🐟#2049/span>`,
+        "discord": `<span style="color: #d6d6d6">Ethics🐰🐟#2049</span>`,
         "job":`<span style="color: #d6d6d6"><s>Đã xóa theo yêu cầu của thành viên</s></span>`
     },
     {
