@@ -67,7 +67,7 @@ testFunc([
         "job": "Quản trò, Side Content Team, Staff"
     },
     {
-        "sayhi": "Chào tất cả mọi người",
+        "sayhi": "👋 chào mọi người",
         "name": "Quản trò Hán",
         "detailName":"Hán",
         "ava": "img/hansava.png",
@@ -109,10 +109,37 @@ testFunc([
     {
         "sayhi": "Chào tất cả mọi người nhaaaaaaa :>",
         "bg":"img/caowall.jpg",
-        "name": `Web Dev Cáo`,
+        "name": `<span class="underline--magical">Web Dev Cáo</span>`,
         "detailName":`Cáo`,
         "ava": "img/caoava.png",
         "discord": `Cáo#3068`,
         "job": `Side Content Team, Staff, Web Developer`
     },
 ])
+const magicalUnderlines = Array.from(document.querySelectorAll('.underline--magical'));
+
+const gradientAPI = 'https://gist.githubusercontent.com/icodervn/6f701dca330b0fd8b5f4c524f5d21a7c/raw/c348f509020257dd75ccfd933df81c359af08895/data-pen-oGybzZ.json';
+
+const randNumInRange = max => Math.floor(Math.random() * (max - 1));
+const mergeArrays = (arrOne, arrTwo) => arrOne
+  .map((item, i) => `${item} ${arrTwo[i]}`)
+  .join(', ');
+const addBackground = (elms) => (color) => {
+  elms.forEach(el => {
+    el.style.backgroundImage = color;
+  });
+}
+const getData = async(url) => {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data.data;
+}
+const addBackgroundToUnderlines = addBackground(magicalUnderlines);
+const buildGradient = (obj) => `linear-gradient(${obj.direction}, ${mergeArrays(obj.colors, obj.positions)})`;
+const applyGradient = async(url, callback) => {
+  const data = await getData(url);
+  const gradient = buildGradient(data[randNumInRange(data.length)]);
+  callback(gradient);
+}
+
+applyGradient(gradientAPI, addBackgroundToUnderlines);
