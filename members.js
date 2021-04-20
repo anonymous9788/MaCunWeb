@@ -24,6 +24,14 @@ testFunc([
         "discord": "Khang#9594",
         "job":"Werewolf Dev, Admin"
     },
+	{
+        "sayhi":"Chào mọi người",
+        "name": "Werewolf Dev Neko",
+        "detailName":"Neko Cyan",
+        "ava": "img/nekoava.png",
+        "discord": "Neko Cyan#7163",
+        "job":"Werewolf Dev, Staff"
+    },
     {
         "sayhi":`Hola amogus`,
         "name": `<span style="color: #d6d6d6">Admin Kanna</span>`,
@@ -72,7 +80,7 @@ testFunc([
         "detailName":"Hán",
         "ava": "img/hansava.png",
         "discord": "Hán#0366",
-        "job": "Quản Trò, Side Content Team, Staff"
+        "job": "Quản Trò, Staff"
     },
     {
         "sayhi": "Chào tất cả",
