@@ -56,7 +56,7 @@ testFunc([
         "detailName":`<span style="color: #Ffff99">Tồm bếu/Đạt</span>`,
         "ava": "img/tomava.png",
         "discord": `<span style="color: #Ffff99">KhongNoiChuyen#0217</span>`,
-        "job":`<span style="color: #Ffff99">Admin, Quản trò, Staff</span>`
+        "job":`<span style="color: #Ffff99">Werewolf Dev, Admin, Quản trò, Staff</span>`
     },
     {
         "sayhi":"Chào mọi người",
